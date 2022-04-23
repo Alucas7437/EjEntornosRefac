@@ -5,7 +5,7 @@
  */
 public class Primos {
     /*** Este codigo ayudará a calcular la cantidad de <strong>numeros primos</strong> que hay hasta cierto numero especificado en el parametro
-     * @param este parametro ayudara a calcular el tamaño que tendrá el vector del que sacaremos los primos
+     * @param max Este parametro ayudara a calcular el tamaño que tendrá el vector del que sacaremos los primos
      * @return Este método devolverá los numeros primos
      */
     // Generar números primos de 1 a max
@@ -59,8 +59,8 @@ public class Primos {
 
     /**
      * Con este metodo calcularemos la cantidad de primos que habrá en el vector
-     * @param Esto define el tamaño del vector
-     * @param Un vector que calculará cuantos de los numeros del vector son primos
+     * @param tamano define el tamaño del vector
+     * @param esPrimo Un vector que calculará cuantos de los numeros del vector son primos
      * @return Devuelve cuantos numeros primos hay en el vector
      */
     private static int numeroPrimos(int tamano, boolean[] esPrimo) {
@@ -84,8 +84,8 @@ public class Primos {
 
     /**
      * Este metodo static rellenara el el vector con una cantidad de numeros segun el tamaño especificado
-     * @param Este primer parametro especifica el tamaño del vector
-     * @param Este nos permitirá comprobar cuales son numeros primos y cuales no
+     * @param tamano Este primer parametro especifica el tamaño del vector
+     * @param esPrimo Nos permitirá comprobar cuales son numeros primos y cuales no
      * @param cuenta
      * @return Devuelve el vector lleno
      */
