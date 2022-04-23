@@ -4,9 +4,9 @@
  * @version 2.5
  */
 public class Primos {
-    /*** Este codigo ayudará a calcular la cantidad de <strong>numeros primos</strong> que hay hasta cierto numero especificado en el parametro
-     * @param max Este parametro ayudara a calcular el tamaño que tendrá el vector del que sacaremos los primos
-     * @return Este método devolverá los numeros primos
+    /*** Este codigo ayudara a calcular la cantidad de <strong>numeros primos</strong> que hay hasta cierto numero especificado en el parametro
+     * @param max Este parametro ayudara a calcular el tamano que tendrá el vector del que sacaremos los primos
+     * @return Este método devolvera los numeros primos
      */
     // Generar números primos de 1 a max
     public static int[] generarPrimos (int max) {
@@ -51,14 +51,14 @@ public class Primos {
     }
 
     /**
-     * Esto calcula el <strong>tamaño requerido</strong>
+     * Esto calcula el <strong>tamano requerido</strong>
      */
     private static boolean tamanoRequerido(int max) {
         return max >= 2;
     }
 
     /**
-     * Con este metodo calcularemos la cantidad de primos que habrá en el vector
+     * Con este metodo calcularemos la cantidad de primos que habra en el vector
      * @param tamano define el tamaño del vector
      * @param esPrimo Un vector que calculará cuantos de los numeros del vector son primos
      * @return Devuelve cuantos numeros primos hay en el vector
@@ -75,7 +75,7 @@ public class Primos {
     }
 
     /**
-     * Este metodo vaciará el vector si no se cumple la condicion del tamaño
+     * Este metodo vaciara el vector si no se cumple la condicion del tamano
      * @return Devuelve el vector vacio
      */
     private static int[] vaciarVector() {
@@ -83,9 +83,9 @@ public class Primos {
     }
 
     /**
-     * Este metodo static rellenara el el vector con una cantidad de numeros segun el tamaño especificado
-     * @param tamano Este primer parametro especifica el tamaño del vector
-     * @param esPrimo Nos permitirá comprobar cuales son numeros primos y cuales no
+     * Este metodo static rellenara  el vector con una cantidad de numeros segun el tamano especificado
+     * @param tamano Este primer parametro especifica el tamano del vector
+     * @param esPrimo Nos permitira comprobar cuales son numeros primos y cuales no
      * @param cuenta
      * @return Devuelve el vector lleno
      */
