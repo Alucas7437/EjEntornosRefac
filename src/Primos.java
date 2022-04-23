@@ -1,5 +1,5 @@
 /**
- * Codigo para calcular numeros primeros
+ * Codigo para calcular numeros primos
  * @author David Castell
  * @version 2.5
  */
